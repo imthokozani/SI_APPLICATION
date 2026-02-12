@@ -18,7 +18,7 @@ def view_users():
 
 @views.route('/qrcode')
 def gen_qrcode():
-    data = "https://www.learn2026.ukzn.ac.za"
+    data = "https://web-production-9375.up.railway.app/"
     qr = qrcode.make(data)
     
     static_folder = current_app.static_folder
